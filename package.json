@@ -32,6 +32,7 @@
     "dist_com",
     "package.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "Dweb_workbench/utils/UI_data.ts"
   ]
 }
