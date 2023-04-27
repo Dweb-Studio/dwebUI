@@ -1,14 +1,14 @@
 {
   "name": "dweb-ui",
   "version": "0.5.0",
-  "description": "",
+  "description": "Vue3 UI Components",
   "main": "dist_com/lib/index.js",
   "module": "dist_com/es/index.js",
   "scripts": {
     "build": "vite build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dweb九弓子",
+  "license": "MIT",
   "dependencies": {
     "vite-plugin-dts": "^2.2.0",
     "vuex": "^4.1.0"
@@ -19,6 +19,14 @@
     "vite": "^4.3.2",
     "vue": "^3.2.47",
     "vue-tsc": "^1.4.2"
+  },
+  "homepage": "https://github.com/Dweb-Studio/dwebUI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dweb-Studio/dwebUI"
+  },
+  "bugs": {
+    "url": "https://github.com/Dweb-Studio/dwebUI/issues"
   },
   "files": [
     "dist_com",
