@@ -1,0 +1,115 @@
+
+.dweb_workbench[data-v-88416297] {
+  position: relative;
+  background: #21252b;
+  display: flex;
+}
+
+.dweb_panel[data-v-598ce8b9] {
+  background: #21252b;
+  display: flex;
+}
+
+.panel-content[data-v-5995c7f0] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;  */
+  user-select: none;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
+}
+.panel-name[data-v-5995c7f0] {
+  /* width: 100%; */
+  height: 30px;
+  background: #363636;
+  padding: 0px 15px;
+  color: #fff;
+  text-shadow: 0px 0px 2px #38a9b69d, 0px 0px 4px #38a9b69d, 0px 0px 6px #38a9b69d;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-shadow: -2px 0px 5px #38a9b69d, -2px 0px 8px #38a9b69d;
+}
+.panel-component[data-v-5995c7f0] {
+  /* width: 100%; */
+  height: calc(100% - 30px);
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  /* border: 1px solid #fff; */
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+[data-v-5995c7f0]::-webkit-scrollbar {
+  display: none;
+}
+
+.dragbar[data-v-8a54a90f] {
+  position: absolute;
+  z-index: 10000;
+}
+.right[data-v-8a54a90f] {
+  width: 10px;
+  height: 100%;
+  right: 0;
+  top: 0;
+  cursor: w-resize;
+}
+.left[data-v-8a54a90f] {
+  width: 10px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  cursor: w-resize;
+}
+.top[data-v-8a54a90f] {
+  width: 100%;
+  height: 10px;
+  top: 0;
+  cursor: s-resize;
+}
+.bottom[data-v-8a54a90f] {
+  width: 100%;
+  height: 10px;
+  bottom: 0;
+  cursor: s-resize;
+}
+.hide[data-v-8a54a90f] {
+  background: #ffffff00;
+  transition: all 0.3s ease;
+}
+.show[data-v-8a54a90f] {
+  background: #3e4452;
+  transition: all 0.3s ease;
+}
+.move-cover[data-v-8a54a90f] {
+  position: absolute;
+  background: #47fe0500;
+}
+.right .move-cover[data-v-8a54a90f] {
+  width: 100px;
+  height: 100%;
+  left: -50px;
+  z-index: 9999;
+}
+.left .move-cover[data-v-8a54a90f] {
+  width: 100px;
+  height: 100%;
+  left: -50px;
+  z-index: 9999;
+}
+.top .move-cover[data-v-8a54a90f] {
+  width: 100%;
+  height: 100px;
+  top: -50px;
+  z-index: 9999;
+}
+.bottom .move-cover[data-v-8a54a90f] {
+  width: 100%;
+  height: 100px;
+  top: -50px;
+  z-index: 9999;
+}
